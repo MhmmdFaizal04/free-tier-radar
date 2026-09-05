@@ -1,0 +1,20 @@
+{
+    "slug":  "render",
+    "name":  "Render",
+    "url":  "https://render.com",
+    "pricingUrl":  "https://render.com/pricing",
+    "category":  "hosting",
+    "description":  "Managed web services, static sites, and Postgres.",
+    "limits":  [
+                   "750 instance hours per month",
+                   "100 GB bandwidth",
+                   "Free Postgres for 90 days"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "usage",
+    "caveats":  [
+                    "Free web services sleep after 15 minutes idle; cold start is roughly 30 seconds"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

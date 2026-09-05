@@ -1,0 +1,20 @@
+{
+    "slug":  "fly-io",
+    "name":  "Fly.io",
+    "url":  "https://fly.io",
+    "pricingUrl":  "https://fly.io/docs/about/pricing",
+    "category":  "hosting",
+    "description":  "Run containers close to users in 30+ regions.",
+    "limits":  [
+                   "3 shared-cpu-1x VMs with 256 MB RAM",
+                   "3 GB persistent volume",
+                   "160 GB outbound transfer"
+               ],
+    "creditCardRequired":  true,
+    "expires":  "never",
+    "caveats":  [
+                    "Card required at signup even for the free allowance"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

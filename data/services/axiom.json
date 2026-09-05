@@ -1,0 +1,16 @@
+{
+    "slug":  "axiom",
+    "name":  "Axiom",
+    "url":  "https://axiom.co",
+    "pricingUrl":  "https://axiom.co/pricing",
+    "category":  "monitoring",
+    "description":  "Log management and event analytics.",
+    "limits":  [
+                   "500 GB ingest per month",
+                   "30 day retention"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

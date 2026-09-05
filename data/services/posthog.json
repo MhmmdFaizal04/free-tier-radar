@@ -1,0 +1,17 @@
+{
+    "slug":  "posthog",
+    "name":  "PostHog",
+    "url":  "https://posthog.com",
+    "pricingUrl":  "https://posthog.com/pricing",
+    "category":  "analytics",
+    "description":  "Product analytics, session replay, and feature flags.",
+    "limits":  [
+                   "1 million events per month",
+                   "5,000 session recordings",
+                   "1 million feature flag requests"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

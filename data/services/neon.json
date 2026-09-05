@@ -1,0 +1,21 @@
+{
+    "slug":  "neon",
+    "name":  "Neon",
+    "url":  "https://neon.tech",
+    "pricingUrl":  "https://neon.tech/pricing",
+    "category":  "database",
+    "description":  "Serverless Postgres with database branching.",
+    "limits":  [
+                   "0.5 GB storage",
+                   "191.9 compute hours per month",
+                   "10 branches",
+                   "1 project"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "caveats":  [
+                    "Compute scales to zero after 5 minutes idle, so the first query after a pause is slower"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

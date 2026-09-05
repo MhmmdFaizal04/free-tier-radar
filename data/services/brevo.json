@@ -1,0 +1,19 @@
+{
+    "slug":  "brevo",
+    "name":  "Brevo",
+    "url":  "https://www.brevo.com",
+    "pricingUrl":  "https://www.brevo.com/pricing",
+    "category":  "email",
+    "description":  "Transactional and marketing email.",
+    "limits":  [
+                   "300 emails per day",
+                   "Unlimited contacts"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "caveats":  [
+                    "Free tier adds Brevo branding to emails"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

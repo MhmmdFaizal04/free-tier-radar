@@ -1,0 +1,17 @@
+{
+    "slug":  "resend",
+    "name":  "Resend",
+    "url":  "https://resend.com",
+    "pricingUrl":  "https://resend.com/pricing",
+    "category":  "email",
+    "description":  "Transactional email with a developer-first API.",
+    "limits":  [
+                   "3,000 emails per month",
+                   "100 emails per day",
+                   "1 custom domain"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

@@ -1,0 +1,17 @@
+{
+    "slug":  "backblaze-b2",
+    "name":  "Backblaze B2",
+    "url":  "https://www.backblaze.com/cloud-storage",
+    "pricingUrl":  "https://www.backblaze.com/cloud-storage/pricing",
+    "category":  "storage",
+    "description":  "S3-compatible object storage priced below the major clouds.",
+    "limits":  [
+                   "10 GB storage",
+                   "1 GB downloads per day",
+                   "2,500 Class B and C transactions per day"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

@@ -1,0 +1,19 @@
+{
+    "slug":  "clerk",
+    "name":  "Clerk",
+    "url":  "https://clerk.com",
+    "pricingUrl":  "https://clerk.com/pricing",
+    "category":  "auth",
+    "description":  "Drop-in authentication with prebuilt UI components.",
+    "limits":  [
+                   "10,000 monthly active users",
+                   "Unlimited social providers"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "caveats":  [
+                    "Custom domains and SAML need a paid plan"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

@@ -1,0 +1,22 @@
+{
+    "slug":  "supabase",
+    "name":  "Supabase",
+    "url":  "https://supabase.com",
+    "pricingUrl":  "https://supabase.com/pricing",
+    "category":  "database",
+    "description":  "Postgres with auth, storage, and realtime built in.",
+    "limits":  [
+                   "500 MB database",
+                   "1 GB file storage",
+                   "5 GB bandwidth",
+                   "50,000 monthly active users",
+                   "2 projects"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "caveats":  [
+                    "Projects pause after 7 days of inactivity and need a manual restart"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

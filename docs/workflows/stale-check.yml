@@ -1,0 +1,53 @@
+name: Stale check
+
+# The contribution engine. Once a month it opens an issue listing every entry
+# that has not been verified in 90 days, each one a two-minute fix.
+on:
+  schedule:
+    - cron: "0 9 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+
+      - id: stale
+        run: |
+          npm run stale > stale.txt 2>&1 || true
+          cat stale.txt
+
+      - name: Open issue if anything is stale
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs')
+            const out = fs.readFileSync('stale.txt', 'utf8')
+            if (out.includes('every entry checked within')) return
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Entries needing re-verification — ${new Date().toISOString().slice(0, 7)}`,
+              labels: ['good first issue', 'help wanted'],
+              body: [
+                'These entries have not been checked in 90 days.',
+                '',
+                'Each is a two-minute contribution: open the pricing page, confirm the',
+                'numbers, update `lastVerified` and `verifiedBy`.',
+                '',
+                '```',
+                out.trim(),
+                '```',
+                '',
+                'Comment which one you are taking so nobody doubles up.',
+              ].join('\n'),
+            })

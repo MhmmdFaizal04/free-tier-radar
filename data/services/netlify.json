@@ -1,0 +1,17 @@
+{
+    "slug":  "netlify",
+    "name":  "Netlify",
+    "url":  "https://netlify.com",
+    "pricingUrl":  "https://netlify.com/pricing",
+    "category":  "hosting",
+    "description":  "Static hosting with serverless functions and forms.",
+    "limits":  [
+                   "100 GB bandwidth per month",
+                   "300 build minutes per month",
+                   "125,000 function invocations"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

@@ -1,0 +1,18 @@
+{
+    "slug":  "meilisearch-cloud",
+    "name":  "Meilisearch Cloud",
+    "url":  "https://www.meilisearch.com/cloud",
+    "pricingUrl":  "https://www.meilisearch.com/pricing",
+    "category":  "search",
+    "description":  "Managed hosting for the Meilisearch engine.",
+    "limits":  [
+                   "14 day trial, no permanent free tier"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "trial",
+    "caveats":  [
+                    "Self-hosting Meilisearch is free and unlimited"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

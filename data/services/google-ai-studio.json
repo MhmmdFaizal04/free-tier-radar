@@ -1,0 +1,20 @@
+{
+    "slug":  "google-ai-studio",
+    "name":  "Google AI Studio",
+    "url":  "https://aistudio.google.com",
+    "pricingUrl":  "https://ai.google.dev/pricing",
+    "category":  "ai-api",
+    "description":  "Gemini models through a free API key.",
+    "limits":  [
+                   "15 requests per minute on Flash",
+                   "1 million tokens per minute",
+                   "1,500 requests per day"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "caveats":  [
+                    "Free tier prompts may be used for model improvement — read the terms before sending anything sensitive"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

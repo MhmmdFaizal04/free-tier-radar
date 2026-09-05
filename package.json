@@ -1,0 +1,28 @@
+{
+  "name": "free-tier-radar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free tiers for developers, with actual limits and verification dates.",
+  "type": "module",
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "build": "tsx scripts/build-readme.ts",
+    "build:site": "tsx scripts/build-site.ts",
+    "stale": "tsx scripts/stale.ts",
+    "check": "npm run validate && npm run build && npm run build:site",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["free-tier", "developer-tools", "awesome", "hacktoberfest", "saas"],
+  "author": "MhmmdFaizal04",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MhmmdFaizal04/free-tier-radar"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": { "node": ">=18.0.0" }
+}

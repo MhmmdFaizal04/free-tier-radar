@@ -1,0 +1,121 @@
+name: Add or update a service
+description: Add a free tier, or fix an entry whose numbers have changed.
+title: "[Service] "
+labels: ["submission"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill this in and a maintainer opens the pull request for you.
+
+        Prefer doing it yourself? Add one file to `data/services/` — see
+        [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md).
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is this
+      options:
+        - New service
+        - Correcting limits that changed
+        - Re-verifying a stale entry
+        - Service no longer has a free tier
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Service name
+      placeholder: Neon
+    validations:
+      required: true
+
+  - type: input
+    id: pricing
+    attributes:
+      label: Pricing page URL
+      description: The page where these numbers can be checked. Not the homepage.
+      placeholder: https://neon.tech/pricing
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - database
+        - hosting
+        - ai-api
+        - storage
+        - email
+        - auth
+        - monitoring
+        - cdn
+        - ci-cd
+        - analytics
+        - search
+        - queue
+    validations:
+      required: true
+
+  - type: textarea
+    id: limits
+    attributes:
+      label: The actual limits
+      description: |
+        One per line, with numbers.
+
+        "Generous free tier" will be rejected — the validator refuses
+        marketing language. Say what someone can actually plan around.
+      placeholder: |
+        0.5 GB storage
+        191.9 compute hours per month
+        10 branches
+    validations:
+      required: true
+
+  - type: dropdown
+    id: card
+    attributes:
+      label: Credit card required to sign up?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: expires
+    attributes:
+      label: Does the free tier end?
+      options:
+        - "never — free forever within the limits"
+        - "usage — free until a threshold, then paid"
+        - "trial — credit or time-limited only"
+    validations:
+      required: true
+
+  - type: textarea
+    id: caveats
+    attributes:
+      label: Anything that would surprise someone
+      description: |
+        Sleep timers, commercial-use restrictions, regional availability,
+        performance caveats. This field is what makes the entry genuinely
+        useful rather than a repeat of the marketing page.
+      placeholder: Free web services sleep after 15 minutes idle; cold start is roughly 30 seconds.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked these numbers on the pricing page today
+          required: true
+        - label: If this is my own product, I have listed the caveats honestly
+          required: true

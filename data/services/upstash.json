@@ -1,0 +1,17 @@
+{
+    "slug":  "upstash",
+    "name":  "Upstash",
+    "url":  "https://upstash.com",
+    "pricingUrl":  "https://upstash.com/pricing",
+    "category":  "database",
+    "description":  "Serverless Redis and Kafka priced per request.",
+    "limits":  [
+                   "256 MB storage",
+                   "500,000 commands per month",
+                   "Unlimited databases"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

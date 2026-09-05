@@ -1,0 +1,20 @@
+{
+    "slug":  "vercel",
+    "name":  "Vercel",
+    "url":  "https://vercel.com",
+    "pricingUrl":  "https://vercel.com/pricing",
+    "category":  "hosting",
+    "description":  "Frontend hosting with serverless and edge functions.",
+    "limits":  [
+                   "100 GB bandwidth per month",
+                   "100 GB-hours serverless execution",
+                   "6,000 build minutes per month"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "caveats":  [
+                    "Hobby tier forbids commercial use — this catches people out"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

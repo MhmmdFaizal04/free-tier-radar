@@ -1,0 +1,19 @@
+{
+    "slug":  "openai",
+    "name":  "OpenAI",
+    "url":  "https://openai.com/api",
+    "pricingUrl":  "https://openai.com/api/pricing",
+    "category":  "ai-api",
+    "description":  "GPT models, embeddings, and speech APIs.",
+    "limits":  [
+                   "No permanent free tier",
+                   "Trial credit varies by region and account age"
+               ],
+    "creditCardRequired":  true,
+    "expires":  "trial",
+    "caveats":  [
+                    "Listed for completeness — assume you will pay from the first request"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

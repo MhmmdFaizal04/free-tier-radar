@@ -1,0 +1,17 @@
+{
+    "slug":  "turso",
+    "name":  "Turso",
+    "url":  "https://turso.tech",
+    "pricingUrl":  "https://turso.tech/pricing",
+    "category":  "database",
+    "description":  "SQLite at the edge, built on libSQL.",
+    "limits":  [
+                   "5 GB total storage",
+                   "500 databases",
+                   "1 billion row reads per month"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

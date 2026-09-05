@@ -1,0 +1,61 @@
+<svg width="740" height="360" viewBox="0 0 740 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="2.6" orient="auto">
+      <path d="M0,0 L0,5.2 L7,2.6 z" fill="#22d3ee"/>
+    </marker>
+  </defs>
+
+  <rect width="740" height="360" fill="#0a0e14" rx="12"/>
+
+  <text x="28" y="36" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#e3e8ef">The list decays on purpose</text>
+  <text x="28" y="54" font-family="Inter, sans-serif" font-size="11" fill="#546174">Staleness is not a failure mode here — it is a renewable supply of small tasks</text>
+
+  <!-- Cycle -->
+  <rect x="28" y="84" width="140" height="42" rx="8" fill="#11161f" stroke="#222b38"/>
+  <text x="98" y="102" text-anchor="middle" font-family="Inter, sans-serif" font-size="11.5" font-weight="600" fill="#e3e8ef">Entry verified</text>
+  <text x="98" y="117" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9.5" fill="#4ade80">lastVerified: today</text>
+
+  <line x1="168" y1="105" x2="204" y2="105" stroke="#22d3ee" stroke-width="1.3" marker-end="url(#a)"/>
+
+  <rect x="212" y="84" width="140" height="42" rx="8" fill="#11161f" stroke="#222b38"/>
+  <text x="282" y="102" text-anchor="middle" font-family="Inter, sans-serif" font-size="11.5" font-weight="600" fill="#e3e8ef">90 days pass</text>
+  <text x="282" y="117" text-anchor="middle" font-family="Inter, sans-serif" font-size="9.5" fill="#546174">quota probably changed</text>
+
+  <line x1="352" y1="105" x2="388" y2="105" stroke="#22d3ee" stroke-width="1.3" marker-end="url(#a)"/>
+
+  <rect x="396" y="84" width="140" height="42" rx="8" fill="#1c1607" stroke="#78500a"/>
+  <text x="466" y="102" text-anchor="middle" font-family="Inter, sans-serif" font-size="11.5" font-weight="600" fill="#fbbf24">Flagged stale</text>
+  <text x="466" y="117" text-anchor="middle" font-family="Inter, sans-serif" font-size="9.5" fill="#8a6410">in README and site</text>
+
+  <line x1="536" y1="105" x2="572" y2="105" stroke="#22d3ee" stroke-width="1.3" marker-end="url(#a)"/>
+
+  <rect x="580" y="84" width="132" height="42" rx="8" fill="#11161f" stroke="#222b38"/>
+  <text x="646" y="102" text-anchor="middle" font-family="Inter, sans-serif" font-size="11.5" font-weight="600" fill="#e3e8ef">Issue opened</text>
+  <text x="646" y="117" text-anchor="middle" font-family="Inter, sans-serif" font-size="9.5" fill="#546174">good first issue</text>
+
+  <!-- loop back -->
+  <path d="M646 126 L646 154 L98 154 L98 126" stroke="#22d3ee" stroke-width="1.3" fill="none" stroke-dasharray="4 3" marker-end="url(#a)"/>
+  <text x="372" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#22d3ee">contributor updates one date · two minutes · loop repeats</text>
+
+  <line x1="28" y1="192" x2="712" y2="192" stroke="#222b38"/>
+
+  <!-- Validator contrast -->
+  <text x="28" y="216" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#e3e8ef">What the validator rejects</text>
+  <text x="28" y="234" font-family="Inter, sans-serif" font-size="10.5" fill="#546174">Directories like this attract vendor submissions. That is the growth engine — but only if every entry still states real numbers.</text>
+
+  <!-- rejected -->
+  <rect x="28" y="250" width="330" height="80" rx="8" fill="#11161f" stroke="#3d1a1a"/>
+  <text x="44" y="270" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#f87171">Rejected</text>
+  <text x="44" y="290" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#546174">"Generous free tier"</text>
+  <text x="44" y="307" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#546174">"Blazing fast performance"</text>
+  <text x="44" y="324" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#546174">pricingUrl == homepage</text>
+
+  <!-- accepted -->
+  <rect x="382" y="250" width="330" height="80" rx="8" fill="#11161f" stroke="#14402a"/>
+  <text x="398" y="270" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#4ade80">Accepted</text>
+  <text x="398" y="290" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#94a3b8">"0.5 GB storage"</text>
+  <text x="398" y="307" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#94a3b8">"191.9 compute hours per month"</text>
+  <text x="398" y="324" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#94a3b8">"Unlimited bandwidth"</text>
+
+  <text x="398" y="346" font-family="Inter, sans-serif" font-size="9.5" fill="#546174">unlimited passes — it is a checkable claim, unlike "generous"</text>
+</svg>

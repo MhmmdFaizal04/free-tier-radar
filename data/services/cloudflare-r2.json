@@ -1,0 +1,20 @@
+{
+    "slug":  "cloudflare-r2",
+    "name":  "Cloudflare R2",
+    "url":  "https://developers.cloudflare.com/r2",
+    "pricingUrl":  "https://developers.cloudflare.com/r2/pricing",
+    "category":  "storage",
+    "description":  "S3-compatible object storage with no egress fees.",
+    "limits":  [
+                   "10 GB storage per month",
+                   "1 million Class A operations",
+                   "10 million Class B operations"
+               ],
+    "creditCardRequired":  true,
+    "expires":  "never",
+    "caveats":  [
+                    "Zero egress cost is the reason to pick this over S3"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

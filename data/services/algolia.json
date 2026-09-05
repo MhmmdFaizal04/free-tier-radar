@@ -1,0 +1,16 @@
+{
+    "slug":  "algolia",
+    "name":  "Algolia",
+    "url":  "https://www.algolia.com",
+    "pricingUrl":  "https://www.algolia.com/pricing",
+    "category":  "search",
+    "description":  "Hosted search with typo tolerance and ranking.",
+    "limits":  [
+                   "10,000 search requests per month",
+                   "1 million records"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

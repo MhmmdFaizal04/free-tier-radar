@@ -1,0 +1,19 @@
+{
+    "slug":  "groq",
+    "name":  "Groq",
+    "url":  "https://groq.com",
+    "pricingUrl":  "https://groq.com/pricing",
+    "category":  "ai-api",
+    "description":  "Very fast inference for open-weight models.",
+    "limits":  [
+                   "Free tier with per-model rate limits",
+                   "30 requests per minute on most models"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "caveats":  [
+                    "Rate limits differ per model and change often — check the docs before relying on them"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

@@ -1,0 +1,20 @@
+{
+    "slug":  "github-actions",
+    "name":  "GitHub Actions",
+    "url":  "https://github.com/features/actions",
+    "pricingUrl":  "https://docs.github.com/en/billing/managing-billing-for-github-actions",
+    "category":  "ci-cd",
+    "description":  "CI/CD running inside GitHub.",
+    "limits":  [
+                   "Unlimited minutes on public repositories",
+                   "2,000 minutes per month on private repositories",
+                   "500 MB package storage"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "caveats":  [
+                    "macOS runners consume minutes at 10x the Linux rate"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

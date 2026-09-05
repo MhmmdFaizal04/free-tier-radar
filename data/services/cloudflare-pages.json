@@ -1,0 +1,20 @@
+{
+    "slug":  "cloudflare-pages",
+    "name":  "Cloudflare Pages",
+    "url":  "https://pages.cloudflare.com",
+    "pricingUrl":  "https://pages.cloudflare.com/#pricing",
+    "category":  "hosting",
+    "description":  "Static and full-stack hosting on Cloudflare edge.",
+    "limits":  [
+                   "Unlimited bandwidth",
+                   "500 builds per month",
+                   "100,000 Worker requests per day"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "caveats":  [
+                    "Unlimited bandwidth is genuinely unlimited here, which is unusual"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

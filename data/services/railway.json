@@ -1,0 +1,19 @@
+{
+    "slug":  "railway",
+    "name":  "Railway",
+    "url":  "https://railway.app",
+    "pricingUrl":  "https://railway.app/pricing",
+    "category":  "hosting",
+    "description":  "Deploy containers, databases, and cron from a repo.",
+    "limits":  [
+                   "$5 credit per month",
+                   "500 execution hours"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "usage",
+    "caveats":  [
+                    "Credit resets monthly and does not roll over"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}

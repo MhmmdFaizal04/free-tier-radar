@@ -1,0 +1,20 @@
+{
+    "slug":  "mongodb-atlas",
+    "name":  "MongoDB Atlas",
+    "url":  "https://www.mongodb.com/atlas",
+    "pricingUrl":  "https://www.mongodb.com/pricing",
+    "category":  "database",
+    "description":  "Managed MongoDB across the major clouds.",
+    "limits":  [
+                   "512 MB storage",
+                   "Shared RAM and vCPU",
+                   "1 cluster"
+               ],
+    "creditCardRequired":  false,
+    "expires":  "never",
+    "caveats":  [
+                    "Shared cluster performance varies with neighbours on the same host"
+                ],
+    "lastVerified":  "2026-09-05",
+    "verifiedBy":  "MhmmdFaizal04"
+}
